@@ -1,11 +1,13 @@
 package com.example.models;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Arrays;
 
 public class MyRadio implements Radio {
 
-    private static double STEPS_FM = 10;
-    private static double STEPS_AM = 0.2;
+    private static double STEPS_AM = 10;
+    private static double STEPS_FM = 0.2;
     private static double LOWER_LIMIT_AM = 530;
     private static double UPPER_LIMIT_AM = 1610;
     private static double LOWER_LIMIT_FM = 87.9;
@@ -17,9 +19,10 @@ public class MyRadio implements Radio {
     private double[] stations;
 
     public MyRadio() {
-        this.isTurnedOn = true;
+        this.isTurnedOn = false;
         this.isOnFM = false;
         this.stations = new double[12];
+        this.currentStation = LOWER_LIMIT_AM;
     }
 
     @Override
@@ -96,8 +99,28 @@ public class MyRadio implements Radio {
         return this.currentStation;
     }
 
-    @Override
-    public String toString() {
-        return "Radio: " + " " +(this.isTurnedOn)+ " " + " " + this.isOnFM +" " + " " + (this.currentStation ) + " " + Arrays.toString(this.stations);
+    //TODO: Check if this method can be removed, or replaced
+    public boolean isTurnedOn() {
+        return isTurnedOn;
     }
+
+    private String getFormattedRadioButtons(){
+        String formattedStations = "";
+        for(int i = 0; i < this.stations.length; i++){
+
+            if(stations[i] != 0) {
+                formattedStations += stations[i] + "\t";
+            } else {
+                formattedStations += (i + 1) + "\t\t";
+            }
+
+            if((i + 1)%4 == 0 && i < this.stations.length - 1){
+                formattedStations += "\n\t";
+            }
+        }
+        return formattedStations;
+    }
+
+
+
 }

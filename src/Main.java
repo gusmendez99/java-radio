@@ -7,7 +7,6 @@ public class Main {
     private static String getMenu() {
         return "Menu:\n" +
                 "\t1. Encender Radio\n" +
-                "\t1. Encender Radio\n" +
                 "\t2. Cambiar Frecuencia (AM/FM).\n" +
                 "\t3. Cambiar de estación.\n" +
                 "\t4. Guardar emisora Actual\n" +
@@ -18,38 +17,58 @@ public class Main {
 
     public static void main(String[] args) {
         Radio radio = new MyRadio();
-        System.out.print(radio.toString());
-        int selection = 0;
+        int selection;
+        Scanner scanner = new Scanner(System.in);
+
         do {
+            System.out.println(radio);
             System.out.println(getMenu());
-            System.out.println("Ingrese su selección: ");
-            Scanner strSelection = new Scanner(System.in);
-            boolean okSelection = false;
+            System.out.print("Ingrese su selección: ");
+            selection = scanner.nextInt();
 
-            try {
-                selection = strSelection.nextInt();
-                okSelection = true;
+            switch (selection) {
+                case 1:
+                    if (!((MyRadio) radio).isTurnedOn()) {
+                        radio.toggle();
+                    } else {
+                        System.out.println("El Radio ya se encuentra encendido");
+                    }
+                    break;
+                case 2:
+                    radio.changeFrequency();
+                    System.out.println("El radio se encuentra en " + ((radio.getFrequency() ? "FM" : "AM")));
+                    break;
+                case 3:
+                    System.out.print("Ingrese 1 para avanzar de estación o 0 para retroceder: ");
+                    int stepSelection = scanner.nextInt();
 
-            } catch (Exception e){
-                System.out.println("Ingrese un número de la lista: ");
+                    switch(stepSelection){
+                        case 0:
+                            radio.changeStation(false);
+                            break;
+                        case 1:
+                            radio.changeStation(true);
+                            break;
+                        default:
+                            System.out.println("Opcion incorrecta, intenta de nuevo...");
+                            break;
+                    }
+                    break;
+                case 4:
+                    System.out.print("¿En qué posición desea guardar la emisora? (1-12): ");
+                    int buttonSaveSelection = scanner.nextInt();
+                    if(buttonSaveSelection > 0 && buttonSaveSelection <= 12){
+                        radio.saveStation(buttonSaveSelection); //TODO: Check if station slot isn't empty
+                        System.out.println("Radio salvada exitosamente en el boton " + buttonSaveSelection + "!");
+                    } else {
+                        System.out.println("Posicion invalida, intenta de nuevo...");
+                    }
+                    break;
             }
-            if (okSelection) {
-                selection = strSelection.nextInt();
-
-                switch (selection){
-                    case 1:
-                        System.out.print("ha seleccionado 1");
-
-                        break;
-                    case 2:
-                        System.out.println("ha seleccionado 2");
-                        break;
-                }
-
-            }
-
 
         } while (selection != 6);
+
+        System.out.println("Hasta pronto...");
 
     }
 }
