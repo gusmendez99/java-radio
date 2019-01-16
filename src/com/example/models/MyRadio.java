@@ -1,26 +1,25 @@
 package com.example.models;
 
+import java.util.Arrays;
+
 public class MyRadio implements Radio {
 
-    public static double STEPS_FM = 0.3;
-    public static double STEPS_AM = 0.5;
-    public static double LOWER_LIMIT_AM = 78.1;
-    public static double UPPER_LIMIT_AM = 78.1;
-    public static double LOWER_LIMIT_FM = 88.0;
-    public static double UPPER_LIMIT_FM = 108.0;
-    //TODO: Conts. for lower and upper limits for AM and FM
+    public static double STEPS_FM = 10;
+    public static double STEPS_AM = 0.2;
+    public static double LOWER_LIMIT_AM = 530;
+    public static double UPPER_LIMIT_AM = 1610;
+    public static double LOWER_LIMIT_FM = 87.9;
+    public static double UPPER_LIMIT_FM = 107.9;
 
     private boolean isTurnedOn;
     private boolean isOnFM;
     private double currentStation;
-    private double[] stationsFM;
-    private double[] stationsAM;
+    private double[] stations;
 
-    public MyRadio(){
+    public MyRadio() {
         this.isTurnedOn = true;
         this.isOnFM = false;
-        this.stationsAM = new double[12];
-        this.stationsFM = new double[12];
+        this.stations = new double[12];
     }
 
     @Override
@@ -40,18 +39,33 @@ public class MyRadio implements Radio {
 
     @Override
     public void changeStation(boolean up) {
-        //TODO: Check upper and lower limit if is on AM or FM
-        if(isOnFM){
-            if(up){
-                this.currentStation += STEPS_FM;
+        if (isOnFM) {
+            if (up) {
+                if (this.currentStation + STEPS_FM <= UPPER_LIMIT_FM) {
+                    this.currentStation += STEPS_FM;
+                } else {
+                    this.currentStation = LOWER_LIMIT_FM;
+                }
             } else {
-                this.currentStation -= STEPS_FM;
+                if (this.currentStation - STEPS_FM >= LOWER_LIMIT_FM) {
+                    this.currentStation -= STEPS_FM;
+                } else {
+                    this.currentStation = UPPER_LIMIT_FM;
+                }
             }
         } else {
-            if(up){
-                this.currentStation += STEPS_AM;
+            if (up) {
+                if (this.currentStation + STEPS_AM <= UPPER_LIMIT_AM) {
+                    this.currentStation += STEPS_AM;
+                } else {
+                    this.currentStation = LOWER_LIMIT_AM;
+                }
             } else {
-                this.currentStation -= STEPS_AM;
+                if (this.currentStation - STEPS_AM >= LOWER_LIMIT_AM) {
+                    this.currentStation -= STEPS_AM;
+                } else {
+                    this.currentStation = UPPER_LIMIT_AM;
+                }
             }
         }
     }
@@ -63,21 +77,27 @@ public class MyRadio implements Radio {
 
     @Override
     public void saveStation(int numButton) {
-        if(isOnFM){
-            this.stationsFM[numButton] = currentStation;
-        } else {
-            this.stationsAM[numButton] = currentStation;
-        }
+        this.stations[numButton-1] = currentStation;
 
     }
 
     @Override
     public void changeStationButton(int numButton) {
-        this.currentStation = ((isOnFM) ? this.stationsFM[numButton] : this.stationsAM[numButton]);
+        if (LOWER_LIMIT_FM <= this.stations[numButton-1] && this.stations[numButton-1] <= UPPER_LIMIT_FM){
+            this.isOnFM = true;
+        } else if (LOWER_LIMIT_AM <= this.stations[numButton-1] && this.stations[numButton-1] <= UPPER_LIMIT_AM){
+            this.isOnFM = false;
+        }
+        this.currentStation = this.stations[numButton - 1];
     }
 
     @Override
     public double getStation() {
         return this.currentStation;
+    }
+
+    @Override
+    public String toString() {
+        return "Radio: " + " " +(this.isTurnedOn)+ " " + " " + this.isOnFM +" " + " " + (this.currentStation ) + " " + Arrays.toString(this.stations);
     }
 }
