@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class MyRadio implements Radio {
 
-    public static double STEPS_FM = 10;
-    public static double STEPS_AM = 0.2;
-    public static double LOWER_LIMIT_AM = 530;
-    public static double UPPER_LIMIT_AM = 1610;
-    public static double LOWER_LIMIT_FM = 87.9;
-    public static double UPPER_LIMIT_FM = 107.9;
+    private static double STEPS_FM = 10;
+    private static double STEPS_AM = 0.2;
+    private static double LOWER_LIMIT_AM = 530;
+    private static double UPPER_LIMIT_AM = 1610;
+    private static double LOWER_LIMIT_FM = 87.9;
+    private static double UPPER_LIMIT_FM = 107.9;
 
     private boolean isTurnedOn;
     private boolean isOnFM;
