@@ -2,7 +2,6 @@ package com.example.models;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.Arrays;
 
 public class MyRadio implements Radio {
 
@@ -37,6 +36,11 @@ public class MyRadio implements Radio {
 
     @Override
     public void changeFrequency() {
+        if (this.isOnFM){
+            currentStation = LOWER_LIMIT_AM;
+        } else {
+            currentStation = LOWER_LIMIT_FM;
+        }
         this.isOnFM = !isOnFM;
     }
 
@@ -88,10 +92,12 @@ public class MyRadio implements Radio {
     public void changeStationButton(int numButton) {
         if (LOWER_LIMIT_FM <= this.stations[numButton-1] && this.stations[numButton-1] <= UPPER_LIMIT_FM){
             this.isOnFM = true;
+            this.currentStation = this.stations[numButton - 1];
         } else if (LOWER_LIMIT_AM <= this.stations[numButton-1] && this.stations[numButton-1] <= UPPER_LIMIT_AM){
             this.isOnFM = false;
+            this.currentStation = this.stations[numButton - 1];
         }
-        this.currentStation = this.stations[numButton - 1];
+
     }
 
     @Override
@@ -119,6 +125,21 @@ public class MyRadio implements Radio {
             }
         }
         return formattedStations;
+    }
+
+    @Override
+    public String toString(){
+
+        NumberFormat formatter = new DecimalFormat("#0.0");
+
+        String finalRadioStr = "\t\t\t\t\t\t\t___\n\t\t\t\t\t\t\t|\t|\n" +
+                "\t\t\t\t\t\t\t|\t|\n---------------------------------\n" +
+                "Radio: \n\t" +
+                "Frecuencia: " + ((this.isOnFM ? "FM" : "AM")) + "\n\t" +
+                "Emisora actual: " + formatter.format(this.currentStation) + "\n\n\t" + getFormattedRadioButtons() +
+                "\n---------------------------------\n";
+
+        return finalRadioStr;
     }
 
 

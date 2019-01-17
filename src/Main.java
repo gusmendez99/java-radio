@@ -64,10 +64,23 @@ public class Main {
                         System.out.println("Posicion invalida, intenta de nuevo...");
                     }
                     break;
+                case 5:
+                    System.out.print("¿Que boton desea presionar? (1-12): ");
+                    int buttonSetSelection = scanner.nextInt();
+                    if(buttonSetSelection > 0 && buttonSetSelection <= 12){
+                        radio.changeStationButton(buttonSetSelection);
+                        System.out.println("Has cambiado la estacion actual!");
+                    } else {
+                        System.out.println("Posicion invalida, intenta de nuevo...");
+                    }
+                    break;
+                case 6:
+                    if (!((MyRadio) radio).isTurnedOn()) {
+                        radio.toggle();
+                    }
+                    break;
             }
-
         } while (selection != 6);
-
         System.out.println("Hasta pronto...");
 
     }
