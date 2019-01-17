@@ -105,11 +105,6 @@ public class MyRadio implements Radio {
         return this.currentStation;
     }
 
-    //TODO: Check if this method can be removed, or replaced
-    public boolean isTurnedOn() {
-        return isTurnedOn;
-    }
-
     private String getFormattedRadioButtons(){
         String formattedStations = "";
         for(int i = 0; i < this.stations.length; i++){

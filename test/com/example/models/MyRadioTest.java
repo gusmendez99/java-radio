@@ -24,6 +24,6 @@ public class MyRadioTest {
     public void getStation() {
         MyRadio radio = new MyRadio();
         radio.changeFrequency();
-        assertEquals(MyRadio.LOWER_LIMIT_FM, radio.getStation()); //TODO: Replace this method
+        assertEquals(MyRadio.LOWER_LIMIT_FM, radio.getStation(), 0.1);
     }
 }
