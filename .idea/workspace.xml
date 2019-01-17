@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914ecd83-e633-4d9f-9220-f06addcfa31f" name="Default" comment="myRadio class refactor, code improvements, reduced number of buttons to 12">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/radio_java/com/example/models/MyRadioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/radio_java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/models/MyRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/models/MyRadio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/models/MyRadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/example/models/MyRadioTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRadio.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyRadio.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/models/MyRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1563">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="53">
+              <caret line="131" column="60" selection-start-line="131" selection-start-column="60" selection-end-line="131" selection-end-column="60" />
               <folding>
                 <element signature="e#3003#3004#0" expanded="true" />
                 <element signature="e#3045#3046#0" expanded="true" />
@@ -45,8 +40,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+            <state relative-caret-position="110">
+              <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRadioTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyRadioTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+            <state relative-caret-position="253">
+              <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -92,9 +87,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/example/models/Radio.java" />
         <option value="$PROJECT_DIR$/src/com/example/models/MyRadioTest.java" />
-        <option value="$PROJECT_DIR$/src/com/example/models/MyRadio.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/test/com/example/models/MyRadioTest.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/example/models/MyRadio.java" />
       </list>
     </option>
   </component>
@@ -222,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in radio_java">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="radio_java" />
@@ -325,9 +320,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in radio_java" />
         <item itemvalue="JUnit.MyRadioTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -359,6 +354,9 @@
     <history-entry file="All_in_radio_java - 2019.01.17 at 16h 25m 43s.xml">
       <configuration name="All in radio_java" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_radio_java - 2019.01.17 at 16h 41m 56s.xml">
+      <configuration name="All in radio_java" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -373,12 +371,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40264025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38448846" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27887788" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.59570956" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -557,6 +555,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/models/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -564,31 +569,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/models/MyRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1563">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3045#3046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        <state relative-caret-position="110">
+          <caret line="32" column="112" selection-start-line="32" selection-start-column="112" selection-end-line="32" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/models/MyRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+        <state relative-caret-position="53">
+          <caret line="131" column="60" selection-start-line="131" selection-start-column="60" selection-end-line="131" selection-end-column="60" />
+          <folding>
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3045#3046#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,7 +30,7 @@ public class Main {
             selection = scanner.nextInt();
 
             if(!radio.getState() && selection > 1) { //User cannot change radio frequency if radio isn't on yet
-
+                System.out.println("Estas opciones no estan disponibles, por favor, enciende la radio primero");
             } else {
                 switch (selection) {
                     case 1:

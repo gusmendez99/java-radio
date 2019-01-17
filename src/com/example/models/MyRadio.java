@@ -129,7 +129,7 @@ public class MyRadio implements Radio {
 
         String finalRadioStr = "\t\t\t\t\t\t\t___\n\t\t\t\t\t\t\t|\t|\n" +
                 "\t\t\t\t\t\t\t|\t|\n---------------------------------\n" +
-                "Radio: \n\t" +
+                "Radio: (" + ((this.isTurnedOn ? "ON" : "OFF")) + ") \n\t" +
                 "Frecuencia: " + ((this.isOnFM ? "FM" : "AM")) + "\n\t" +
                 "Emisora actual: " + formatter.format(this.currentStation) + "\n\n\t" + getFormattedRadioButtons() +
                 "\n---------------------------------\n";
