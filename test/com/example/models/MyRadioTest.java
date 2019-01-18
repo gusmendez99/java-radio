@@ -21,9 +21,12 @@ public class MyRadioTest {
     }
 
     @Test
-    public void getStation() {
+    public void toggle() {
         MyRadio radio = new MyRadio();
-        radio.changeFrequency();
-        assertEquals(MyRadio.LOWER_LIMIT_FM, radio.getStation(), 0.1);
+        boolean initState = radio.getState();
+        radio.toggle();
+        initState = !initState;
+        assertEquals(initState, radio.getState());
     }
+
 }
