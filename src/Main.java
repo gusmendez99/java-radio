@@ -1,6 +1,8 @@
 import com.example.models.Radio;
 import com.example.models.MyRadio;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -21,6 +23,17 @@ public class Main {
         } else {
             return "Menu:\n\t1. Encender Radio\n";
         }
+
+    }
+    private static String getStrRadio(Radio radio){
+        NumberFormat formatter = new DecimalFormat("#0.0");
+        String finalRadioStr = "\t\t\t\t\t\t\t___\n\t\t\t\t\t\t\t|\t|\n" +
+                "\t\t\t\t\t\t\t|\t|\n---------------------------------\n" +
+                "Radio: (" + ((radio.getState() ? "ON" : "OFF")) + ") \n\t" +
+                "Frecuencia: " + ((radio.getFrequency() ? "FM" : "AM")) + "\n\t" +
+                "Emisora actual: " + formatter.format(radio.getStation()) + "\n\n\t"+
+                "\n---------------------------------\n";
+        return finalRadioStr;
     }
 
     public static void main(String[] args) {
@@ -29,7 +42,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         do {
-            System.out.println(radio);
+            System.out.println(getStrRadio(radio));
+
             System.out.println(getMenu(radio.getState()));
             System.out.print("Ingrese su selección: ");
             selection = scanner.nextInt(); // the integer of the scanner is assigned to selection

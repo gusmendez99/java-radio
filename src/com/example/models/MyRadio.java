@@ -159,7 +159,6 @@ public class MyRadio implements Radio {
         }
 
     }
-
     /**
      * {@inheritDoc}
      * @return the radios's current station, represented as a double
@@ -168,48 +167,4 @@ public class MyRadio implements Radio {
     public double getStation() {
         return this.currentStation;
     }
-
-    /**
-     * formats a string representing the 12 buttons of the radio as an UI improvement
-     * @return the string of the 12 buttons
-     */
-
-    private String getFormattedRadioButtons(){
-        String formattedStations = "";
-        for(int i = 0; i < this.stations.length; i++){
-
-            if(stations[i] != 0) {
-                formattedStations += stations[i] + "\t";
-            } else {
-                formattedStations += (i + 1) + "\t\t";
-            }
-
-            if((i + 1)%4 == 0 && i < this.stations.length - 1){
-                formattedStations += "\n\t";
-            }
-        }
-        return formattedStations;
-    }
-
-    /**
-     * converts the data of the radio to a more understandable representation of it
-     * @return the string to show in the console
-     */
-    @Override
-    public String toString(){
-
-        NumberFormat formatter = new DecimalFormat("#0.0");
-
-        String finalRadioStr = "\t\t\t\t\t\t\t___\n\t\t\t\t\t\t\t|\t|\n" +
-                "\t\t\t\t\t\t\t|\t|\n---------------------------------\n" +
-                "Radio: (" + ((this.isTurnedOn ? "ON" : "OFF")) + ") \n\t" +
-                "Frecuencia: " + ((this.isOnFM ? "FM" : "AM")) + "\n\t" +
-                "Emisora actual: " + formatter.format(this.currentStation) + "\n\n\t" + getFormattedRadioButtons() +
-                "\n---------------------------------\n";
-
-        return finalRadioStr;
-    }
-
-
-
 }
