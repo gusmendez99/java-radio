@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="914ecd83-e633-4d9f-9220-f06addcfa31f" name="Default" comment="tests modified to work fine.">
-      <change afterPath="$PROJECT_DIR$/UML/UML Radio.jpeg" afterDir="false" />
+    <list default="true" id="914ecd83-e633-4d9f-9220-f06addcfa31f" name="Default" comment="fixed bugs with non overridden methods">
+      <change afterPath="$PROJECT_DIR$/capturas (Documento PDF)/capturas De Pantalla.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Exitosa 1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Exitosa 2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Exitosa 3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Fallida 1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Fallida 2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Fallida 3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (3).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (4).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (5).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (6).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 15 (7).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (2).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (3).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (4).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (5).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capturasDePantalla/grupo 6 (6).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/MyRadio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/MyRadioTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/Radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/com/example/models/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/models/MyRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/models/MyRadio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/radio_java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/radio_java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/radio_java/com/example/models/MyRadio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/radio_java/com/example/models/MyRadio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/radio_java/com/example/models/MyRadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/radio_java/com/example/models/MyRadioTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +70,16 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/models/Radio.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/models/MyRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+            <state relative-caret-position="277">
+              <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1673#1674#0" expanded="true" />
@@ -48,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="-40">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="320">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -96,9 +146,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/example/models/MyRadioTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/models/Radio.java" />
-        <option value="$PROJECT_DIR$/test/com/example/models/MyRadioTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/example/models/MyRadio.java" />
+        <option value="$PROJECT_DIR$/test/com/example/models/MyRadioTest.java" />
       </list>
     </option>
   </component>
@@ -155,6 +205,52 @@
               <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="capturas (Documento PDF)" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="capturasDePantalla" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="javadoc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="javadoc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="javadoc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="javadoc" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="radio-java" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="radio_java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="UML" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -190,7 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547833756452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547863212549" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -212,6 +308,9 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luis2\OneDrive\Desktop\SEMESTRE 3\ESTRUCTURAS DE DATOS\HDT 1 (RADIO)\radio-java\capturas (Documento PDF)" />
+      <recent name="C:\Users\luis2\OneDrive\Desktop\SEMESTRE 3\ESTRUCTURAS DE DATOS\HDT 1 (RADIO)\radio-java\javadoc" />
+      <recent name="C:\Users\luis2\OneDrive\Desktop\SEMESTRE 3\ESTRUCTURAS DE DATOS\HDT 1 (RADIO)\radio-java\capturasDePantalla" />
       <recent name="C:\Users\luis2\OneDrive\Desktop\SEMESTRE 3\ESTRUCTURAS DE DATOS\HDT 1 (RADIO)\radio-java\UML" />
     </key>
   </component>
@@ -227,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MyRadioTest.toggle">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="radio_java" />
@@ -252,7 +351,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyRadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyRadioTest.getFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="radio_java" />
       <extension name="coverage">
         <pattern>
@@ -262,7 +361,44 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.models" />
       <option name="MAIN_CLASS_NAME" value="com.example.models.MyRadioTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getFrequency" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRadioTest.getState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.models.MyRadioTest" />
+      <option name="METHOD_NAME" value="getState" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRadioTest.toggle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="radio_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.models" />
+      <option name="MAIN_CLASS_NAME" value="com.example.models.MyRadioTest" />
+      <option name="METHOD_NAME" value="toggle" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -288,14 +424,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.MyRadioTest" />
       <item itemvalue="JUnit.All in radio_java" />
+      <item itemvalue="JUnit.MyRadioTest.getState" />
+      <item itemvalue="JUnit.MyRadioTest.getFrequency" />
+      <item itemvalue="JUnit.MyRadioTest.toggle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyRadioTest.toggle" />
+        <item itemvalue="JUnit.MyRadioTest.getFrequency" />
+        <item itemvalue="JUnit.MyRadioTest.getState" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in radio_java" />
-        <item itemvalue="JUnit.MyRadioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -338,25 +478,52 @@
       <option name="project" value="LOCAL" />
       <updated>1547832286337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed bugs with non overridden methods">
+      <created>1547833834432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547833834432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyRadioTest - 2019.01.17 at 12h 55m 31s.xml">
-      <configuration name="MyRadioTest" configurationId="JUnit" />
+    <history-entry file="MyRadioTest_getState - 2019.01.18 at 11h 59m 37s.xml">
+      <configuration name="MyRadioTest.getState" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_radio_java - 2019.01.17 at 16h 25m 43s.xml">
-      <configuration name="All in radio_java" configurationId="JUnit" />
+    <history-entry file="MyRadioTest_getFrequency - 2019.01.18 at 12h 01m 14s.xml">
+      <configuration name="MyRadioTest.getFrequency" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_radio_java - 2019.01.17 at 16h 41m 56s.xml">
-      <configuration name="All in radio_java" configurationId="JUnit" />
+    <history-entry file="MyRadioTest_toggle - 2019.01.18 at 12h 03m 16s.xml">
+      <configuration name="MyRadioTest.toggle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_toggle - 2019.01.18 at 12h 04m 45s.xml">
+      <configuration name="MyRadioTest.toggle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_getState - 2019.01.18 at 12h 05m 31s.xml">
+      <configuration name="MyRadioTest.getState" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_getFrequency - 2019.01.18 at 12h 06m 19s.xml">
+      <configuration name="MyRadioTest.getFrequency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_toggle - 2019.01.18 at 12h 07m 58s.xml">
+      <configuration name="MyRadioTest.toggle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_getState - 2019.01.18 at 12h 08m 54s.xml">
+      <configuration name="MyRadioTest.getState" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_getFrequency - 2019.01.18 at 12h 09m 00s.xml">
+      <configuration name="MyRadioTest.getFrequency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyRadioTest_toggle - 2019.01.18 at 12h 09m 03s.xml">
+      <configuration name="MyRadioTest.toggle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13842663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -367,15 +534,14 @@
       <window_info id="simpleUML" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3881064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32707354" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32707354" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286385" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,9 +552,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Code Iris" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Run" order="10" weight="0.4591528" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13842663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -399,15 +566,14 @@
       <window_info id="simpleUML" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3881064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32707354" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286385" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32707354" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286385" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,6 +584,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Code Iris" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Run" order="10" weight="0.4591528" />
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
@@ -425,38 +592,22 @@
     <MESSAGE value="Comments Added in MyRadio and Radio classes." />
     <MESSAGE value="comments in main class added" />
     <MESSAGE value="tests modified to work fine." />
-    <option name="LAST_COMMIT_MESSAGE" value="tests modified to work fine." />
+    <MESSAGE value="fixed bugs with non overridden methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs with non overridden methods" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/example/MyRadioTest.java" />
-    <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/models/Radio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/models/MyRadio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+        <state relative-caret-position="277">
+          <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1673#1674#0" expanded="true" />
@@ -468,6 +619,29 @@
             <element signature="e#4659#4660#0" expanded="true" />
             <element signature="e#4701#4702#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capturasDePantalla/Prueba Unitaria Fallida 3.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadoc/com/example/models/Radio.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/example/models/MyRadioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
